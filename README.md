@@ -106,15 +106,11 @@ This final classification map categorizes the METU Forest into areas of "Loss" (
 
 ## 6. Future Enhancements
 
-This project provides a foundational NDVI change analysis. The following enhancements could be considered for future development:
+This project provides a foundational NDVI change analysis. The following enhancements could be considered for future development to further improve the analysis and extend its capabilities:
 
-* **Time Series Analysis:** Conduct a more comprehensive time series analysis using monthly or seasonal NDVI data spanning a longer period (e.g., 5-10 years). This could reveal long-term trends and periodic changes.
-* **Other Vegetation Indices:** Incorporate other vegetation indices (e.g., EVI, SAVI) into the analysis and compare the results.
-* **Advanced Machine Learning & Deep Learning Models:**
-    * Beyond thresholding, implement supervised machine learning algorithms (e.g., Support Vector Machines, Random Forests) for robust change detection and land cover classification.
-    * Explore deep learning architectures (e.g., Convolutional Neural Networks like U-Net for semantic segmentation or Siamese networks for change detection) to learn complex patterns in multi-spectral satellite imagery and perform pixel-level classification or object detection (e.g., identifying specific tree species, detecting illegal logging areas, or mapping fire scars with higher precision).
-    * Leverage transfer learning techniques with pre-trained models to accelerate model development and improve performance on limited datasets.
-* **Integration of Climatic Data:** Integrate climatic data such as temperature, precipitation, and historical weather events (e.g., severe snowfall as observed in April 2025) to better explain the causes of vegetation changes and validate analysis results.
-* **Interactive Maps:** Transform the generated maps into interactive web-based maps (e.g., using Leaflet or Folium) for better exploration and stakeholder engagement.
-* **Cloud Computing Platforms:** Migrate the analysis to cloud-based platforms like Google Earth Engine or Microsoft Planetary Computer to handle larger datasets, scale processing, and enable global-scale analyses.
-
+* **Expanded Temporal Analysis:** Extend the analysis to cover a longer period (e.g., multiple years or seasons) to identify long-term trends, seasonal variations, and more subtle changes in vegetation health. This would involve processing a time series of satellite images.
+* **Incorporation of Diverse Indices:** Beyond NDVI, explore the use of other relevant vegetation indices (e.g., EVI, SAVI) or biophysical parameters to gain a more comprehensive understanding of vegetation status and change.
+* **Integration of External Data:** Incorporate additional data sources such as detailed meteorological data (temperature, precipitation, specific weather events like snowfall) to better correlate observed vegetation changes with environmental factors. This would enhance the explanatory power of the analysis.
+* **Advanced Analytical Techniques:** Investigate the application of more advanced statistical or machine learning approaches for change detection. This could involve exploring techniques that are more robust to noise and capable of identifying complex change patterns.
+* **Interactive Visualization:** Develop interactive web-based maps for the analysis results (e.g., using libraries like Folium or Dash). This would allow users to explore the data dynamically and gain deeper insights.
+* **Scalability for Larger Areas:** Adapt the processing pipeline to handle larger geographic areas or higher volumes of data, potentially by leveraging cloud-based geospatial platforms. This would enable broader environmental monitoring initiatives.
